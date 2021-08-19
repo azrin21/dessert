@@ -96,7 +96,7 @@ div.information{
   text-align: lefts;
   font-size: 15px;
   width:60%;
-  margin:2%;
+  padding: 20px 49px;
   overflow: hidden;
   color: #191a15
   
@@ -113,8 +113,22 @@ div.information{
   display: flex;
   align-items: center;
   margin-top: 12px;
+  text-decoration: none;
 }
 
 .img-icon{
-  margin-right: 12px;;
+  margin-right: 12px;
+  font-size: 40px;
+}
+
+.color-icon{
+  color: #3b5998;
+}
+
+.color-icon1{
+  color: #dd2a7b;
+}
+
+.color-icon2{
+  color: #25d366;
 }
