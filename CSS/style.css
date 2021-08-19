@@ -1,0 +1,120 @@
+body{
+ 
+  
+  
+    }
+
+  .header{
+    font-family: "Brush Script MT", cursive, monospace;
+    font-size: 35px;
+    width:70%;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    color: #572d2d
+  }
+
+  .nav {
+    width: 80%;
+    margin: auto;
+    
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 16px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  div.column {
+    margin: 30px;
+    border: 2px solid rgb(97, 81, 49);
+    float: left;
+    width: 250px;
+    height: 400px;
+    background-color: rgba(124, 124, 114, 0.603);
+    text-align: center;
+  }
+  
+div.column:hover {
+  border: 2px solid rgb(75, 43, 214);
+}
+
+div.column img {
+  width: 100%;
+  height: 50%;
+}
+
+div.desc {
+  padding: 0px;
+  text-align: center;
+  color: rgb(14, 13, 13);
+  font-family: Tahoma, sans-serif;;
+}
+
+div.information{
+  font-family: Georgia, serif;
+  background-color: rgba(124, 124, 114, 0.603);
+  border: 2px solid rgb(90, 75, 44);
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 5px;
+  padding: 0px;
+  font-family: Georgia, serif;
+}
+
+.maklumat{
+  text-align: lefts;
+  font-size: 15px;
+  width:60%;
+  margin:2%;
+  overflow: hidden;
+  color: #191a15
+  
+}
+.contact{
+  text-align: left;
+  font-size: 15px;
+  width:100%;
+  margin:3%;
+  color: #161414
+}
+
+.social-icon{
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.img-icon{
+  margin-right: 12px;;
+}
